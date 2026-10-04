@@ -12,6 +12,7 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Blocks;
 import org.jspecify.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
@@ -63,6 +64,7 @@ public class ModRecipesProvider extends RecipeProvider {
                 .unlockedBy("has_netherite_ingot", has(Items.NETHERITE_INGOT))
                 .unlockedBy("has_apple", has(Items.APPLE))
                 .save(output);
+
         shaped(RecipeCategory.FOOD, MoreAppleItems.EMERALD_APPLE.get(), 1)
                 .define('E', Items.EMERALD)
                 .define('A', Items.APPLE)
@@ -70,6 +72,16 @@ public class ModRecipesProvider extends RecipeProvider {
                 .pattern("EAE")
                 .pattern("EEE")
                 .unlockedBy("has_emerald", has(Items.EMERALD))
+                .unlockedBy("has_apple", has(Items.APPLE))
+                .save(output);
+
+        shaped(RecipeCategory.FOOD, Items.ENCHANTED_GOLDEN_APPLE,1)
+                .define('A', Items.APPLE)
+                .define('G',Items.GOLD_BLOCK)
+                .pattern("GGG")
+                .pattern("GAG")
+                .pattern("GGG")
+                .unlockedBy("has_gold_block", has(Items.GOLD_BLOCK))
                 .unlockedBy("has_apple", has(Items.APPLE))
                 .save(output);
     }
