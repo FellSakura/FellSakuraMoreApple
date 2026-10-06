@@ -22,6 +22,8 @@ public class MoreAppleCreativeModeTabs {
                             output.accept(MoreAppleItems.COPPER_APPLE.get());
                             output.accept(MoreAppleItems.NETHERITE_APPLE.get());
                             output.accept(MoreAppleItems.EMERALD_APPLE.get());
+                            output.accept(MoreAppleItems.GLASS_APPLE.get());
+                            output.accept(MoreAppleItems.SLIME_APPLE.get());
     }).build());
 
     public static void register(IEventBus eventBus) {
