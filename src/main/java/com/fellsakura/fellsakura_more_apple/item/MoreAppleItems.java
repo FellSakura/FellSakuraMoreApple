@@ -22,6 +22,12 @@ public class MoreAppleItems {
     public static final DeferredItem<Item> EMERALD_APPLE = ITEMS.registerSimpleItem("emerald_apple",
             () -> new Item.Properties().food(MoreAppleFoods.EMERALD_APPLE, MoreAppleConsumables.EMERALD_APPLE));
 
+    public static final DeferredItem<Item> GLASS_APPLE = ITEMS.registerSimpleItem("glass_apple",
+            () -> new Item.Properties().food(MoreAppleFoods.GLASS_APPLE, MoreAppleConsumables.GLASS_APPLE));
+
+    public static final DeferredItem<Item> SLIME_APPLE = ITEMS.registerSimpleItem("slime_apple",
+            () -> new Item.Properties().food(MoreAppleFoods.SLIME_APPLE, MoreAppleConsumables.SLIME_APPLE));
+
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus); // Register the items

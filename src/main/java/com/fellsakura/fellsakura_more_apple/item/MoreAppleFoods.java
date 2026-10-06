@@ -31,4 +31,16 @@ public class MoreAppleFoods {
             .alwaysEdible()
             .build());
 
+    public static final FoodProperties GLASS_APPLE = (new FoodProperties.Builder()
+            .nutrition(4)
+            .saturationModifier(0.8f)
+            .alwaysEdible()
+            .build());
+
+    public static final FoodProperties SLIME_APPLE = (new FoodProperties.Builder()
+            .nutrition(5)
+            .saturationModifier(0.8f)
+            .alwaysEdible()
+            .build());
+
 }
