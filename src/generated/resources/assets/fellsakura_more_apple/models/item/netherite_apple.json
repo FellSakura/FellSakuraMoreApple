@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fellsakura_more_apple:item/netherite_apple"
+  }
+}

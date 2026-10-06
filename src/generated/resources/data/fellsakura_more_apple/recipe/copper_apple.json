@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "minecraft:apple",
+    "C": "minecraft:copper_ingot"
+  },
+  "pattern": [
+    "CCC",
+    "CAC",
+    "CCC"
+  ],
+  "result": {
+    "id": "fellsakura_more_apple:copper_apple"
+  }
+}

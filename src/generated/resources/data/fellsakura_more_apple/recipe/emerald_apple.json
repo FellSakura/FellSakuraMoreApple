@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "minecraft:apple",
+    "E": "minecraft:emerald"
+  },
+  "pattern": [
+    "EEE",
+    "EAE",
+    "EEE"
+  ],
+  "result": {
+    "id": "fellsakura_more_apple:emerald_apple"
+  }
+}

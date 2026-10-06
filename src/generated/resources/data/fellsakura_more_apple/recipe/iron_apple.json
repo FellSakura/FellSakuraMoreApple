@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "minecraft:apple",
+    "I": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "III",
+    "IAI",
+    "III"
+  ],
+  "result": {
+    "id": "fellsakura_more_apple:iron_apple"
+  }
+}
