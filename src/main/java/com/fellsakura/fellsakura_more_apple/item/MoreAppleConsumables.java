@@ -52,4 +52,16 @@ public class MoreAppleConsumables {
                             new MobEffectInstance(MobEffects.RESISTANCE, 2400, 0)
                     )
             )).build();
+
+    public static final Consumable GLASS_APPLE = Consumables.defaultFood()
+            .onConsume(new ApplyStatusEffectsConsumeEffect(
+                    new MobEffectInstance(MobEffects.INVISIBILITY, 2400)))
+            .build();
+    public static final Consumable SLIME_APPLE = Consumables.defaultFood()
+            .onConsume(new ApplyStatusEffectsConsumeEffect(
+                    List.of(
+                            new MobEffectInstance(MobEffects.JUMP_BOOST, 2400, 1),
+                            new MobEffectInstance(MobEffects.SLOW_FALLING, 2400, 1)
+                    )
+        )).build();
 }
