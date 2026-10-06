@@ -83,6 +83,26 @@ public class ModRecipesProvider extends RecipeProvider {
                 .unlockedBy("has_gold_block", has(Items.GOLD_BLOCK))
                 .unlockedBy("has_apple", has(Items.APPLE))
                 .save(output);
+
+        shaped(RecipeCategory.FOOD, MoreAppleItems.GLASS_APPLE.get(),1)
+                .define('G', Items.GLASS)
+                .define('A', Items.APPLE)
+                .pattern("GGG")
+                .pattern("GAG")
+                .pattern("GGG")
+                .unlockedBy("has_glass", has(Items.GLASS))
+                .unlockedBy("has_apple", has(Items.APPLE))
+                .save(output);
+
+        shaped(RecipeCategory.FOOD, MoreAppleItems.SLIME_APPLE.get(),1)
+                .define('S', Items.SLIME_BALL)
+                .define('A', Items.APPLE)
+                .pattern("SSS")
+                .pattern("SAS")
+                .pattern("SSS")
+                .unlockedBy("has_slime_ball", has(Items.SLIME_BALL))
+                .unlockedBy("has_apple", has(Items.APPLE))
+                .save(output);
     }
 
     protected void nineBlockStorageRecipes(
