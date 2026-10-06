@@ -2,7 +2,9 @@
   "item.fellsakura_more_apple.copper_apple": "Copper Apple",
   "item.fellsakura_more_apple.diamond_apple": "Diamond Apple",
   "item.fellsakura_more_apple.emerald_apple": "Emerald Apple",
+  "item.fellsakura_more_apple.glass_apple": "Glass Apple",
   "item.fellsakura_more_apple.iron_apple": "Iron Apple",
   "item.fellsakura_more_apple.netherite_apple": "Netherite Apple",
+  "item.fellsakura_more_apple.slime_apple": "Slime Apple",
   "itemGroup.fellsakura_more_apple": "More Apple"
 }
