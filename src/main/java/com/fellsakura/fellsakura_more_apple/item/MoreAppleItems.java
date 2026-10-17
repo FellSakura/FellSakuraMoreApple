@@ -28,6 +28,8 @@ public class MoreAppleItems {
     public static final DeferredItem<Item> SLIME_APPLE = ITEMS.registerSimpleItem("slime_apple",
             () -> new Item.Properties().food(MoreAppleFoods.SLIME_APPLE, MoreAppleConsumables.SLIME_APPLE));
 
+    public static final DeferredItem<Item> MAGMA_APPLE = ITEMS.registerSimpleItem("magma_apple"
+           , () -> new Item.Properties().food(MoreAppleFoods.MAGMA_APPLE, MoreAppleConsumables.MAGMA_APPLE));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus); // Register the items

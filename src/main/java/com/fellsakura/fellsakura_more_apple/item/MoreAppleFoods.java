@@ -5,7 +5,7 @@ import net.minecraft.world.food.FoodProperties;
 public class MoreAppleFoods {
 
     public static final FoodProperties DIAMOND_APPLE = (new FoodProperties.Builder()
-            .nutrition(6)
+            .nutrition(8)
             .saturationModifier(1.4f)
             .alwaysEdible()
             .build());
@@ -21,8 +21,8 @@ public class MoreAppleFoods {
             .build());
 
     public static final FoodProperties NETHERITE_APPLE = (new FoodProperties.Builder()
-            .nutrition(8)
-            .saturationModifier(1.4f)
+            .nutrition(15)
+            .saturationModifier(1.5f)
             .alwaysEdible()
             .build());
     public static final FoodProperties EMERALD_APPLE = (new FoodProperties.Builder()
@@ -43,4 +43,9 @@ public class MoreAppleFoods {
             .alwaysEdible()
             .build());
 
+    public static final FoodProperties MAGMA_APPLE = (new FoodProperties.Builder()
+            .nutrition(6)
+            .saturationModifier(0.8f)
+            .alwaysEdible()
+            .build());
 }
