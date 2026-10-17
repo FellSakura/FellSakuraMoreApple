@@ -103,6 +103,16 @@ public class ModRecipesProvider extends RecipeProvider {
                 .unlockedBy("has_slime_ball", has(Items.SLIME_BALL))
                 .unlockedBy("has_apple", has(Items.APPLE))
                 .save(output);
+
+        shaped(RecipeCategory.FOOD, MoreAppleItems.MAGMA_APPLE.get(),1)
+                .define('M', Items.MAGMA_CREAM)
+                .define('A', Items.APPLE)
+                .pattern("MMM")
+                .pattern("MAM")
+                .pattern("MMM")
+                .unlockedBy("has_magma_cream", has(Items.MAGMA_CREAM))
+                .unlockedBy("has_apple", has(Items.APPLE))
+                .save(output);
     }
 
     protected void nineBlockStorageRecipes(
