@@ -1,6 +1,5 @@
 package com.fellsakura.fellsakura_more_apple;
 
-import net.minecraft.client.Minecraft;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
@@ -24,6 +23,5 @@ public class MoreAppleClient {
     static void onClientSetup(FMLClientSetupEvent event) {
         // Some client setup code
         MoreApple.LOGGER.info("HELLO FROM CLIENT SETUP");
-        MoreApple.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
     }
 }
