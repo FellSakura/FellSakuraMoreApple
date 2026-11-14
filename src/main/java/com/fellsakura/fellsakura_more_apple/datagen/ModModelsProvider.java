@@ -26,6 +26,7 @@ public class ModModelsProvider extends ModelProvider {
         itemModels.generateFlatItem(MoreAppleItems.EMERALD_APPLE.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(MoreAppleItems.GLASS_APPLE.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(MoreAppleItems.SLIME_APPLE.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(MoreAppleItems.MAGMA_APPLE.get(), ModelTemplates.FLAT_ITEM);
     }
 
     @Override

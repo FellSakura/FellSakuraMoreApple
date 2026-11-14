@@ -64,4 +64,12 @@ public class MoreAppleConsumables {
                             new MobEffectInstance(MobEffects.SLOW_FALLING, 2400, 1)
                     )
         )).build();
+
+    public static final Consumable MAGMA_APPLE = Consumables.defaultFood()
+            .onConsume(new ApplyStatusEffectsConsumeEffect(
+                    List.of(
+                            new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 12000),
+                            new MobEffectInstance(MobEffects.RESISTANCE, 2400)
+                    )
+            )).build();
 }
